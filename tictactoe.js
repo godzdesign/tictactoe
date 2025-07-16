@@ -4,7 +4,7 @@ let board = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
 let currentPlayer = "🐐";
 let active = true;
 
-//GameBoard with placeholders"string interpolation"
+//GameBoard with placeholders "string interpolation"
 function printBoard() {
   console.log(`
     ${board[0]} | ${board[1]} | ${board[2]}
@@ -15,7 +15,7 @@ function printBoard() {
   `);
 }
 
-//check if the field is already taken
+//checks if the field is already taken
 function handleMove(position) {
   if (board[position] === " ") {
     board[position] = currentPlayer;
@@ -45,7 +45,7 @@ function handleMove(position) {
   return true;
 }
 
-//check if it is a win
+//is checking if its a win
 function checkWin() {
   const conditions = [
     [0, 1, 2],
