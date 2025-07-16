@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 let board = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
-let currentPlayer = "🐐";
+let currentPlayer = "♥️";
 let active = true;
 
 //GameBoard with placeholders "string interpolation"
