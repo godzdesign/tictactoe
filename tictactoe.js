@@ -41,7 +41,7 @@ function handleMove(position) {
   }
 
   //toggels current players
-  currentPlayer = currentPlayer === "🐐" ? "🍇" : "🐐";
+  currentPlayer = currentPlayer === "♥️" ? "🤍" : "♥️";
   return true;
 }
 
